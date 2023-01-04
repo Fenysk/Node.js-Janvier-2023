@@ -1,0 +1,23 @@
+{
+  "name": "node.js-2-janvier",
+  "version": "1.0.0",
+  "description": "Lorem ipsum dolor sit amet, consectetur adip",
+  "main": "src/server.js",
+  "repository": "https://github.com/Fenysk/Node.js-Janvier-2023",
+  "scripts": {
+    "test": "jest",
+    "start": "NODE_OPTIONS=\"--experimental-specifier-resolution=node --loader ts-node/esm\" node --watch src/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.18.2",
+    "prisma": "^4.8.0"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.8.0",
+    "cookie-parser": "^1.4.6",
+    "express-ws": "^5.0.2",
+    "ws": "^8.11.0"
+  }
+}

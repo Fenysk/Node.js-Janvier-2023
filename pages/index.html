@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>Node.js</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <h1 class="text-3xl font-bold text-center mt-12">Mon application de discussion</h1>
+
+    <i id="chat-status" class="mx-[50%] rounded w-2.5 h-2.5 block"></i>
+
+    <form class="text-center">
+        <input type="text" id="chat-input" / class="border-2 border-gray-500 my-12 px-4 py-2 rounded">
+        <button type="submit" class="border-2 border-black px-4 py-2 rounded">Envoyer</button>
+    </form>
+
+    <div id="message-list" class="text-center flex flex-col-reverse"></div>
+
+
+
+    <script src="client.js"></script>
+</body>
+</html>
